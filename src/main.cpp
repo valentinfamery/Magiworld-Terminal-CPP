@@ -1,10 +1,8 @@
 #include <iostream>
 #include <string>
-#include "Game.cpp"
+#include "Game.hpp"
 
 int main() {
-
     Game game;
-    game.start();
     return 0;
 }

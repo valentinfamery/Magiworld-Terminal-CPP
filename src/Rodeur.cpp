@@ -1,26 +1,25 @@
 #include <iostream>
 #include <string>
 #include "Personnage.hpp"
+#include "Rodeur.hpp"
 
-class Rodeur : public Personnage {
-  public:
-    Rodeur(int niveau, int force, int agilite, int intelligence, int playerNumber)
+
+    Rodeur::Rodeur(int niveau, int force, int agilite, int intelligence, int playerNumber)
         : Personnage(niveau,force, agilite, intelligence, playerNumber){}
 
-
-     std::string cri() {
+     std::string Rodeur::cri() {
       return "Fsshhh";
     }
 
-    void attackBase(Personnage p){
+    void Rodeur::attackBase(Personnage p){
       int damage = agilite;
        std::cout << "Joueur " << playerNumber << " utilise Tir à l'Arc et inflige " << damage << " dommages.";
       p.removeLife(damage);
     }
 
-    void attackSpecial(Personnage p){
+    void Rodeur::attackSpecial(Personnage p){
       int agilityWon = niveau / 2;
       addAgility(agilityWon);
     }
 
-};
+
