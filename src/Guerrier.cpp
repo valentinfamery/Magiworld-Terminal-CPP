@@ -1,7 +1,7 @@
 #include "Guerrier.hpp"
+#include "Personnage.hpp"
 #include <iostream>
 #include <string>
-#include "Personnage.hpp"
 
     Guerrier::Guerrier(int niveau, int force, int agilite, int intelligence, int playerNumber)
         : Personnage(niveau,force, agilite, intelligence, playerNumber){}

@@ -1,9 +1,10 @@
 #ifndef DEF_MAGE
 #define DEF_MAGE
 
+#include "Personnage.hpp"
 #include <iostream>
 #include <string>
-#include "Personnage.hpp"
+
 
 class Mage : public Personnage {
   

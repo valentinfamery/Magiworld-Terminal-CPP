@@ -1,9 +1,9 @@
 #ifndef DEF_GUERRIER
 #define DEF_GUERRIER
 
+#include "Personnage.hpp"
 #include <iostream>
 #include <string>
-#include "Personnage.hpp"
 
 
 

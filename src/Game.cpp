@@ -1,10 +1,11 @@
 #include "Game.hpp"
 #include "Personnage.hpp"
 #include "Guerrier.hpp"
-#include <iostream>
-#include <string>
 #include "Mage.hpp"
 #include "Rodeur.hpp"
+#include <iostream>
+#include <string>
+
 
 
       Game::Game(){

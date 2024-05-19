@@ -1,7 +1,8 @@
+#include "Mage.hpp"
+#include "Personnage.hpp"
 #include <iostream>
 #include <string>
-#include "Personnage.hpp"
-#include "Mage.hpp"
+
 
     Mage::Mage(int niveau, int force, int agilite, int intelligence, int playerNumber)
         : Personnage(niveau,force, agilite, intelligence, playerNumber), defaultLife(niveau * 5) {}

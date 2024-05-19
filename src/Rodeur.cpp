@@ -1,7 +1,8 @@
+#include "Rodeur.hpp"
+#include "Personnage.hpp"
 #include <iostream>
 #include <string>
-#include "Personnage.hpp"
-#include "Rodeur.hpp"
+
 
 
     Rodeur::Rodeur(int niveau, int force, int agilite, int intelligence, int playerNumber)

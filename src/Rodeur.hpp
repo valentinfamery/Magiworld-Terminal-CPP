@@ -1,9 +1,9 @@
 #ifndef DEF_RODEUR
 #define DEF_RODEUR
 
+#include "Personnage.hpp"
 #include <iostream>
 #include <string>
-#include "Personnage.hpp"
 
 class Rodeur : public Personnage {
   public:
