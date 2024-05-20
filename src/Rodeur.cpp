@@ -12,13 +12,13 @@
       return "Fsshhh";
     }
 
-    void Rodeur::attackBase(Personnage p){
+    void Rodeur::attackBase(Personnage &p){
       int damage = agilite;
        std::cout << "Joueur " << playerNumber << " utilise Tir à l'Arc et inflige " << damage << " dommages.";
       p.removeLife(damage);
     }
 
-    void Rodeur::attackSpecial(Personnage p){
+    void Rodeur::attackSpecial(Personnage &p){
       int agilityWon = niveau / 2;
       addAgility(agilityWon);
     }

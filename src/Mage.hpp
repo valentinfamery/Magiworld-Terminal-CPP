@@ -16,8 +16,8 @@ class Mage : public Personnage {
     Mage(int niveau, int force, int agilite, int intelligence, int playerNumber);
         
     std::string cri();
-    void attackBase(Personnage p);
-    void attackSpecial(Personnage p);
+    void attackBase(Personnage &p);
+    void attackSpecial(Personnage &p);
 
 };
 

@@ -11,13 +11,13 @@
       return "Woarg";
     }
 
-    void Guerrier::attackBase(Personnage p){
+    void Guerrier::attackBase(Personnage &p){
       int damage = force;
       std::cout << "Joueur " << playerNumber << " utilise Coup d'Epee et inflige " << damage << " dommages."; 
       p.removeLife(damage);
     }
 
-    void Guerrier::attackSpecial(Personnage p){
+    void Guerrier::attackSpecial(Personnage &p){
       int damage = force * 2;
       int autoDamage = force / 2;
       std::cout << "Joueur " << playerNumber << " utilise Coup de rage et inflige " << damage << " dommages.";

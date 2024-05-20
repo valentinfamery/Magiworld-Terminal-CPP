@@ -10,8 +10,8 @@ class Game {
       Personnage* player2;
       int classe, niveau, force, agilite, intelligence;
 
-      Game(){};
-      ~Game(){};
+      Game();
+      ~Game();
 
       Personnage* createPlayer(int playerNumber);
       Personnage* instanciationPersonnage(int classe, int niveau, int force, int agilite, int intelligence, int playerNumber);

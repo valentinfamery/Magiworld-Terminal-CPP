@@ -5,6 +5,7 @@
 #include "Rodeur.hpp"
 #include <iostream>
 #include <string>
+using namespace std;
 
 
 
@@ -72,9 +73,11 @@
         switch (classe) {
           case 1:
             temp = new Guerrier(niveau, force, agilite, intelligence, playerNumber);
+            
             break;
           case 2:
             temp = new Rodeur(niveau, force, agilite, intelligence, playerNumber);
+            
             break;
           case 3:
             temp = new Mage(niveau, force, agilite, intelligence, playerNumber);
@@ -85,6 +88,8 @@
       }
 
       void Game::start(){
+        cout << "Lancement du jeu";
+
       int turn = 1;
 
      

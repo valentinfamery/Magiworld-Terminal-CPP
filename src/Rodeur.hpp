@@ -11,8 +11,8 @@ class Rodeur : public Personnage {
        
 
     std::string cri();
-    void attackBase(Personnage p);
-    void attackSpecial(Personnage p);
+    void attackBase(Personnage &p);
+    void attackSpecial(Personnage &p);
 };
 
 #endif

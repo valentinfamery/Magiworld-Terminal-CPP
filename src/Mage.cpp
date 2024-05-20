@@ -11,13 +11,13 @@
       return "Abracadabra";
     }
 
-    void Mage::attackBase(Personnage p){
+    void Mage::attackBase(Personnage &p){
       int damage = intelligence;
        std::cout << "Joueur " << playerNumber << " utilise Boule de Feu et inflige " << damage << " dommages.";
       p.removeLife(damage);
     }
 
-    void Mage::attackSpecial(Personnage p){
+    void Mage::attackSpecial(Personnage &p){
       int health = intelligence * 2;
       if(vie + health >= defaultLife){
       health = defaultLife - vie;
