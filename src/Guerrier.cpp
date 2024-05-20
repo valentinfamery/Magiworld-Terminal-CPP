@@ -11,7 +11,7 @@
       return "Woarg";
     }
 
-    void Guerrier::attackBase(Personnage &p){
+    void Guerrier::attackBase(Personnage &p) {
       int damage = force;
       std::cout << "Joueur " << playerNumber << " utilise Coup d'Epee et inflige " << damage << " dommages."; 
       p.removeLife(damage);

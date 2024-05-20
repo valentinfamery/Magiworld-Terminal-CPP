@@ -37,7 +37,7 @@
       return " je suis le Joueur " +  std::to_string(playerNumber) + " niveau " +  std::to_string(niveau) + " je possède " +  std::to_string(vie) + " de vitalité, " +  std::to_string(force) + " de force, " +  std::to_string(agilite) + " d'agilité et " +  std::to_string(intelligence) + " d'intélligence !";
     }
 
-    void Personnage::attackBase(Personnage &p){std::cout << " attachBasePersonnage";};
+    void Personnage::attackBase(Personnage &p) {std::cout << " attachBasePersonnage";};
 
     void Personnage::attackSpecial(Personnage &p){std::cout << " attachSpecialPersonnage";};
 
