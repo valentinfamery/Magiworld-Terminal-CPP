@@ -1,5 +1,16 @@
- Pour le lancer le programme , compiler les sources
+### Compilation du programme
 
- cd src
- g++ main.cpp Game.cpp Personnage.cpp Mage.cpp Rodeur.cpp Guerrier.cpp
- ./a.out
+Tout d'abord, assurez-vous d'être dans le répertoire contenant le Makefile, puis exécutez la commande :
+
+```
+make
+```
+
+### Lancement du programme
+
+Une fois la compilation terminée avec succès, vous pouvez lancer le programme en utilisant la commande suivante :
+
+```
+./main
+```
+
